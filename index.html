@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tähtitieteilijät</title>
+    <!-- Foundation CSS -->
+    <link rel="stylesheet" href="foundation.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="top-bar">
+        <div class="top-bar-left">
+            <ul class="dropdown menu" data-dropdown-menu>
+                <li class="menu-text">Tähtitieteilijät</li>
+                <li><a href="#etusivu">Etusivu</a></li>
+                <li><a href="#tutkimus">Tutkimus</a></li>
+                <li><a href="#galaksit">Galaksit</a></li>
+                <li><a href="#aurinkokunta">Aurinkokunta</a></li>
+                <li><a href="#yhteys">Ota yhteyttä</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="etusivu" class="callout primary text-center">
+        <h1>Tähtitieteen Ihmeet</h1>
+        <p>Tutustu avaruuden saloihin ja tähtien syntyyn!</p>
+        <a href="#tutkimus" class="button large">Lue Lisää</a>
+    </section>
+
+    <!-- Research Section -->
+    <section id="tutkimus" class="grid-container">
+        <h2 class="text-center">Tietoa Tähtitieteestä</h2>
+        <p>Tähtitieteellinen tutkimus kattaa kaiken, mikä on ilmakehän ulkopuolella. Tiede auttaa ymmärtämään universumin toimintaa ja tähtien syntyä. Kaukoputket ja radiotähtitiede ovat avanneet uusia näkökulmia avaruuden tutkimukseen.</p>
+    </section>
+
+    <!-- Galaxies Section -->
+    <section id="galaksit" class="grid-container">
+        <h2 class="text-center">Galaksit</h2>
+        <p>Galaksit ovat valtavia tähtijärjestelmiä, joita painovoima pitää kasassa. Ne sisältävät tähtiä, kaasua, pölyä ja pimeää ainetta. Omaa Linnunrataamme kutsutaan sauvaspiraaligalaksiksi.</p>
+        <div class="grid-x grid-margin-x">
+            <div class="cell medium-6 large-4">
+                <img src="aurinko.jpg" alt="Aurinko" style="width:100%;">
+                <p>Aurinko</p>
+            </div>
+            <div class="cell medium-6 large-4">
+                <img src="aurinkokunta.jpg" alt="Aurinkokunta" style="width:100%;">
+                <p>Aurinkokunta</p>
+            </div>
+            <div class="cell medium-6 large-4">
+                <img src="galaksit.jpg" alt="Galaksit" style="width:100%;">
+                <p>Galaksit</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solar System Section -->
+    <section id="aurinkokunta" class="grid-container">
+        <h2 class="text-center">Aurinkokuntamme</h2>
+        <p>Aurinkokunta syntyi miljardeja vuosia sitten tähtienvälisestä kaasupilvestä. Sen keskelle muodostui Aurinko, ja sen ympärille planeetat, jotka kiertävät sitä.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="yhteys" class="callout secondary">
+        <div class="grid-container">
+            <h2 class="text-center">Ota Yhteyttä</h2>
+            <form>
+                <label>Nimi
+                    <input type="text" placeholder="Kirjoita nimesi">
+                </label>
+                <label>Sähköposti
+                    <input type="email" placeholder="Kirjoita sähköpostisi">
+                </label>
+                <label>Viesti
+                    <textarea placeholder="Kirjoita viestisi"></textarea>
+                </label>
+                <button type="submit" class="button">Lähetä</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="grid-container text-center">
+        <p>&copy; 2024 Tähtitieteilijät</p>
+    </footer>
+
+    <!-- Foundation JS -->
+    <script src="jquery.js"></script>
+    <script src="what-input.js"></script>
+    <script src="foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+</body>
+</html>
